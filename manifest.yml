@@ -1,0 +1,4 @@
+applications:
+- name: zenpen
+  buildpack: https://github.com/ActiveState/staticfile-buildpack.git#custom-404
+  mem: 32M
